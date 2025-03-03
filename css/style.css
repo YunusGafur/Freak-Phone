@@ -4,5 +4,33 @@ div[class^="col"]{
 }
 
 .row {
-    border: 1px dashed red;
+    /* border: 1px dashed rgb(255, 255, 255); */
+}
+
+.col-6 {
+    transform: translateX(700px);
+}
+
+.col-1 {
+    transform: translateX(1650px);
+}
+
+.col-10 {
+    transform: translateX(210px);
+}
+
+.col-8 {
+    transform: translateX(450px);
+}
+
+.col-7 {
+    transform: translateX(450px);
+}
+
+.col-15 {
+    transform: translateX(685px);
+}
+
+.col-10 {
+ transform: translateX(580px);
 }
