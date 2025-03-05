@@ -1,10 +1,10 @@
 div[class^="col"]{
     min-height: 74px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .row {
-    /* border: 1px dashed rgb(255, 255, 255); */
+    /* border: 1px dashed rgb(171, 82, 82); */
 }
 
 .col-6 {
@@ -24,13 +24,65 @@ div[class^="col"]{
 }
 
 .col-7 {
-    transform: translateX(450px);
+    transform: translateX(815px);
 }
 
 .col-15 {
-    transform: translateX(685px);
+    transform: translateX(745px);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .col-10 {
  transform: translateX(580px);
 }
+
+.col-19 {
+    transform: translateX(645px);
+}
+
+.col-20 {
+    transform: translateX(790px);
+        font-family: "Times New Roman", Times, serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #181717;
+  }
+  
+  .button:hover svg path {
+    fill: #181717;
+  }
+
+  .button {
+    transform: translateX(260px);
+  }
