@@ -5,44 +5,8 @@ div[class^="col"]{
 
 .row {
     /* border: 1px dashed rgb(171, 82, 82); */
-}
-
-.col-6 {
-    transform: translateX(700px);
-}
-
-.col-1 {
-    transform: translateX(1650px);
-}
-
-.col-10 {
-    transform: translateX(210px);
-}
-
-.col-8 {
-    transform: translateX(450px);
-}
-
-.col-7 {
-    transform: translateX(815px);
-}
-
-.col-15 {
-    transform: translateX(745px);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.col-10 {
- transform: translateX(580px);
-}
-
-.col-19 {
-    transform: translateX(645px);
-}
-
-.col-20 {
-    transform: translateX(790px);
-        font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    justify-content: center;
 }
 
 .button {
@@ -84,5 +48,9 @@ div[class^="col"]{
   }
 
   .button {
-    transform: translateX(260px);
+     transform: translateX(240px);
   }
+  
+  .b {
+    background-image: url('images/Screenshot 2025-03-05 083510.png');
+    }
